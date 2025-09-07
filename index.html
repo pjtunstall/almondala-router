@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta property="og:title" content="Almondala" />
+        <meta property="og:description" content="Mandelbrot explorer." />
+        <meta
+          property="og:image"
+          content="https://almondala.netlify.app/initial.jpg"
+        />
+        <meta property="og:url" content="https://almondala.netlify.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Almondala" />
+
+        <title>Almondala</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" />
+        <script>
+          (function () {
+            const desktopUrl = "https://almondala.netlify.app/";
+            const mobileUrl = "https://pjtunstall.github.io/almondala-mobile/";
+
+            const isMobile = window.innerWidth <= 768;
+
+            if (isMobile) {
+              window.location.href = mobileUrl;
+            } else {
+              window.location.href = desktopUrl;
+            }
+          })();
+        </script>
+      </head>
+      <body></body>
+    </html>
+  </head>
+</html>
