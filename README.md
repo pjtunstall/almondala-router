@@ -1,0 +1,1 @@
+A temporary router to direct traffic to the desktop or work-in-progress [mobile version](https://github.com/pjtunstall/almondala-mobile) of my Mandelbrot-explorer site. Full description here: [Almondala](https://github.com/pjtunstall/almondala).
